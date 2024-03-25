@@ -1,0 +1,245 @@
+$flaticon_gyim-font: "flaticon_gyim";
+
+@font-face {
+    font-family: $flaticon_gyim-font;
+    src: url("../fonts/flaticon_gyim.ttf?35bc0d6faf8578a02bab2b74ad597c15") format("truetype"),
+url("../fonts/flaticon_gyim.woff?35bc0d6faf8578a02bab2b74ad597c15") format("woff"),
+url("../fonts/flaticon_gyim.woff2?35bc0d6faf8578a02bab2b74ad597c15") format("woff2"),
+url("../fonts/flaticon_gyim.eot?35bc0d6faf8578a02bab2b74ad597c15#iefix") format("embedded-opentype"),
+url("../fonts/flaticon_gyim.svg?35bc0d6faf8578a02bab2b74ad597c15#flaticon_gyim") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_gyim !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_gyim-map: (
+    "scale": "\f101",
+    "muscle": "\f102",
+    "yoga-position": "\f103",
+    "waist": "\f104",
+    "sauna": "\f105",
+    "changing-room": "\f106",
+    "burn": "\f107",
+    "abs": "\f108",
+    "power": "\f109",
+    "whistle": "\f10a",
+    "sneaker": "\f10b",
+    "medicine-ball": "\f10c",
+    "yoga-ball": "\f10d",
+    "heart-rate": "\f10e",
+    "gym-machine": "\f10f",
+    "dumbbells": "\f110",
+    "water-bottle": "\f111",
+    "stationary-bike": "\f112",
+    "treadmill": "\f113",
+    "shower-head": "\f114",
+    "gym": "\f115",
+    "pulsometer": "\f116",
+    "gym-1": "\f117",
+    "lockers": "\f118",
+    "swedish-wall": "\f119",
+    "trainer": "\f11a",
+    "sweatshirt": "\f11b",
+    "rowing": "\f11c",
+    "chronometer": "\f11d",
+    "yoga-mat": "\f11e",
+    "energy-bar": "\f11f",
+    "protein": "\f120",
+    "boxing-bag": "\f121",
+    "fruit": "\f122",
+    "shorts": "\f123",
+    "boxing-gloves": "\f124",
+    "towel": "\f125",
+    "app": "\f126",
+    "weight": "\f127",
+    "pommel-horse": "\f128",
+    "hand-grip": "\f129",
+    "gym-gloves": "\f12a",
+    "barbell": "\f12b",
+    "jumping-rope": "\f12c",
+    "kettlebell": "\f12d",
+    "orange-juice": "\f12e",
+    "plan": "\f12f",
+    "sport-bag": "\f130",
+    "swimming-pool": "\f131",
+    "wellness": "\f132",
+    "call": "\f133",
+    "mail": "\f134",
+    "email": "\f135",
+    "paper-plane": "\f136",
+    "pin": "\f137",
+);
+
+.flaticon-scale:before {
+    content: map-get($flaticon_gyim-map, "scale");
+}
+.flaticon-muscle:before {
+    content: map-get($flaticon_gyim-map, "muscle");
+}
+.flaticon-yoga-position:before {
+    content: map-get($flaticon_gyim-map, "yoga-position");
+}
+.flaticon-waist:before {
+    content: map-get($flaticon_gyim-map, "waist");
+}
+.flaticon-sauna:before {
+    content: map-get($flaticon_gyim-map, "sauna");
+}
+.flaticon-changing-room:before {
+    content: map-get($flaticon_gyim-map, "changing-room");
+}
+.flaticon-burn:before {
+    content: map-get($flaticon_gyim-map, "burn");
+}
+.flaticon-abs:before {
+    content: map-get($flaticon_gyim-map, "abs");
+}
+.flaticon-power:before {
+    content: map-get($flaticon_gyim-map, "power");
+}
+.flaticon-whistle:before {
+    content: map-get($flaticon_gyim-map, "whistle");
+}
+.flaticon-sneaker:before {
+    content: map-get($flaticon_gyim-map, "sneaker");
+}
+.flaticon-medicine-ball:before {
+    content: map-get($flaticon_gyim-map, "medicine-ball");
+}
+.flaticon-yoga-ball:before {
+    content: map-get($flaticon_gyim-map, "yoga-ball");
+}
+.flaticon-heart-rate:before {
+    content: map-get($flaticon_gyim-map, "heart-rate");
+}
+.flaticon-gym-machine:before {
+    content: map-get($flaticon_gyim-map, "gym-machine");
+}
+.flaticon-dumbbells:before {
+    content: map-get($flaticon_gyim-map, "dumbbells");
+}
+.flaticon-water-bottle:before {
+    content: map-get($flaticon_gyim-map, "water-bottle");
+}
+.flaticon-stationary-bike:before {
+    content: map-get($flaticon_gyim-map, "stationary-bike");
+}
+.flaticon-treadmill:before {
+    content: map-get($flaticon_gyim-map, "treadmill");
+}
+.flaticon-shower-head:before {
+    content: map-get($flaticon_gyim-map, "shower-head");
+}
+.flaticon-gym:before {
+    content: map-get($flaticon_gyim-map, "gym");
+}
+.flaticon-pulsometer:before {
+    content: map-get($flaticon_gyim-map, "pulsometer");
+}
+.flaticon-gym-1:before {
+    content: map-get($flaticon_gyim-map, "gym-1");
+}
+.flaticon-lockers:before {
+    content: map-get($flaticon_gyim-map, "lockers");
+}
+.flaticon-swedish-wall:before {
+    content: map-get($flaticon_gyim-map, "swedish-wall");
+}
+.flaticon-trainer:before {
+    content: map-get($flaticon_gyim-map, "trainer");
+}
+.flaticon-sweatshirt:before {
+    content: map-get($flaticon_gyim-map, "sweatshirt");
+}
+.flaticon-rowing:before {
+    content: map-get($flaticon_gyim-map, "rowing");
+}
+.flaticon-chronometer:before {
+    content: map-get($flaticon_gyim-map, "chronometer");
+}
+.flaticon-yoga-mat:before {
+    content: map-get($flaticon_gyim-map, "yoga-mat");
+}
+.flaticon-energy-bar:before {
+    content: map-get($flaticon_gyim-map, "energy-bar");
+}
+.flaticon-protein:before {
+    content: map-get($flaticon_gyim-map, "protein");
+}
+.flaticon-boxing-bag:before {
+    content: map-get($flaticon_gyim-map, "boxing-bag");
+}
+.flaticon-fruit:before {
+    content: map-get($flaticon_gyim-map, "fruit");
+}
+.flaticon-shorts:before {
+    content: map-get($flaticon_gyim-map, "shorts");
+}
+.flaticon-boxing-gloves:before {
+    content: map-get($flaticon_gyim-map, "boxing-gloves");
+}
+.flaticon-towel:before {
+    content: map-get($flaticon_gyim-map, "towel");
+}
+.flaticon-app:before {
+    content: map-get($flaticon_gyim-map, "app");
+}
+.flaticon-weight:before {
+    content: map-get($flaticon_gyim-map, "weight");
+}
+.flaticon-pommel-horse:before {
+    content: map-get($flaticon_gyim-map, "pommel-horse");
+}
+.flaticon-hand-grip:before {
+    content: map-get($flaticon_gyim-map, "hand-grip");
+}
+.flaticon-gym-gloves:before {
+    content: map-get($flaticon_gyim-map, "gym-gloves");
+}
+.flaticon-barbell:before {
+    content: map-get($flaticon_gyim-map, "barbell");
+}
+.flaticon-jumping-rope:before {
+    content: map-get($flaticon_gyim-map, "jumping-rope");
+}
+.flaticon-kettlebell:before {
+    content: map-get($flaticon_gyim-map, "kettlebell");
+}
+.flaticon-orange-juice:before {
+    content: map-get($flaticon_gyim-map, "orange-juice");
+}
+.flaticon-plan:before {
+    content: map-get($flaticon_gyim-map, "plan");
+}
+.flaticon-sport-bag:before {
+    content: map-get($flaticon_gyim-map, "sport-bag");
+}
+.flaticon-swimming-pool:before {
+    content: map-get($flaticon_gyim-map, "swimming-pool");
+}
+.flaticon-wellness:before {
+    content: map-get($flaticon_gyim-map, "wellness");
+}
+.flaticon-call:before {
+    content: map-get($flaticon_gyim-map, "call");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon_gyim-map, "mail");
+}
+.flaticon-email:before {
+    content: map-get($flaticon_gyim-map, "email");
+}
+.flaticon-paper-plane:before {
+    content: map-get($flaticon_gyim-map, "paper-plane");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon_gyim-map, "pin");
+}

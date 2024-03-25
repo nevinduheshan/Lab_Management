@@ -1,0 +1,37 @@
+#appointment{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    /*width:100vw;*/
+}
+
+.appointment_text{
+    font-size: 1.2rem;
+}
+
+.block2{
+    width: 300px;
+    height: 150px;
+    margin-top: -8rem;
+    margin-left: -3rem;
+    position: absolute;
+}
+
+.custom-text-color {
+    color: #F5FE83;
+}
+
+@media (min-width: 1200px) {
+    #appointment{
+        background-size: contain;
+    }
+
+    .block2{
+        width: 500px;
+        height: 250px;
+        margin-top: -13rem;
+        margin-left: -4rem;
+    }
+}
+
+
